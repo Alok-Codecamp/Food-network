@@ -18,7 +18,7 @@ p {
 a {
   text-decoration: none;
 }
-.section-style {
+.Flexible {
   display: flex;
 }
 .text {
@@ -50,4 +50,21 @@ div.image img {
 
 #about-img {
   width: 116%;
+}
+.my-recepies {
+  margin: 0% 4% 0% 4%;
+}
+.about-recepie {
+  text-align: center;
+  margin-top: 10%;
+}
+.food-recepie {
+  margin: 2%;
+  width: 33%;
+  padding: 5%;
+  box-shadow: 10px 10px 30px gray;
+  border-radius: 30px;
+}
+.recepie-img {
+  width: 33%;
 }

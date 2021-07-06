@@ -3,7 +3,7 @@ body {
   font-family: "Roboto Condensed", sans-serif;
   margin: 0%;
 }
-.word-color {
+.span-color {
   color: darkorange;
 }
 h1 {
@@ -13,10 +13,14 @@ h1 {
 }
 p {
   color: rgb(131, 128, 128);
-  margin-bottom: 14%;
+  margin-bottom: 5%;
 }
 a {
   text-decoration: none;
+  margin-top: 2%;
+}
+.menu-bar {
+  background-color: teal;
 }
 .Flexible {
   display: flex;
@@ -71,4 +75,25 @@ div.image img {
 }
 #rice {
   height: 53%;
+}
+.Followers {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 2% 3% 2% 3%;
+  box-shadow: 3px 3px 15px grey;
+  height: 148px;
+  width: 80%;
+  margin: 7%;
+  border-radius: 20px;
+}
+footer {
+  padding: 2% 0% 2% 0%;
+  height: 170px;
+  background-color: rgb(1, 2, 22);
+  text-align: center;
+}
+footer h4 {
+  color: rgb(184, 224, 240);
 }

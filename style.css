@@ -61,10 +61,14 @@ div.image img {
 .food-recepie {
   margin: 2%;
   width: 33%;
-  padding: 5%;
+  padding: 1%;
   box-shadow: 10px 10px 30px gray;
   border-radius: 30px;
 }
 .recepie-img {
-  width: 33%;
+  width: 100%;
+  border-radius: 20px;
+}
+#rice {
+  height: 53%;
 }

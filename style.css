@@ -12,7 +12,7 @@ h1 {
   font-weight: 700;
 }
 p {
-  color: #ffffff;
+  color: gray;
   margin-bottom: 5%;
 }
 a {
@@ -50,6 +50,7 @@ ul li a:hover {
   padding-left: 5%;
   padding-right: 5%;
 }
+
 div.image img {
   width: 100%;
 }
@@ -62,6 +63,7 @@ div.image img {
   border-radius: 40px;
 }
 .about {
+  margin-top: 30px;
   background-image: url("/images/7.png");
   background-repeat: no-repeat;
   height: 470px;

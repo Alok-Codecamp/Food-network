@@ -12,15 +12,31 @@ h1 {
   font-weight: 700;
 }
 p {
-  color: rgb(131, 128, 128);
+  color: #ffffff;
   margin-bottom: 5%;
 }
 a {
   text-decoration: none;
-  margin-top: 2%;
 }
 .menu-bar {
-  background-color: teal;
+  background-color: #eeeef0;
+  height: 40px;
+  padding: 1%;
+  display: flex;
+}
+.menu-bar img {
+  height: 40px;
+}
+ul.menu-list {
+  display: flex;
+  list-style: none;
+}
+ul li a {
+  margin-left: 30px;
+  color: black;
+}
+ul li a:hover {
+  text-decoration: 5px green underline;
 }
 .Flexible {
   display: flex;
